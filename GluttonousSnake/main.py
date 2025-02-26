@@ -78,7 +78,7 @@ def main():
     game_over = True
     start = False       # 是否开始，当start = True，game_over = True 时，才显示 GAME OVER
     score = 0           # 得分
-    orispeed = 0.5      # 原始速度
+    orispeed = 1      # 原始速度
     speed = orispeed
     last_move_time = None
     pause = False       # 暂停
